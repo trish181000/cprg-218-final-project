@@ -1,0 +1,15 @@
+/* footer section */
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #483d3f;
+    color: white;
+  }
+  
+  /* Responsive layout for columns on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,134 @@
+/* heading elements */
+h2, h3 {
+    font-family: "Libre Caslon Display", Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 3em; /* Equivalent to 300% */
+  }
+  
+  h3 {
+    font-size: 2.5em; /* Equivalent to 250% */
+    color: #4d4d4d;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  /* center-align paragraphs inside .content */
+  .content p {
+    text-align: center;
+  }
+  
+  /* card container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+  }
+  
+  /* cards */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  /* card images */
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* card headings */
+  .card h5 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* card paragraphs */
+  .card p {
+    color: #666;
+  }
+  
+  /* accordion container */
+  .accordion-container {
+    background-color: #fdf0d5;
+    color: #4d4d4d;
+    overflow: hidden;
+  }
+  
+  /* accordion buttons */
+  .accordion {
+    background-color: #ffd6d6;
+    color: #4d4d4d;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* hover effect for accordion */
+  .accordion:hover {
+    background-color: #f5b7b1;
+  }
+  
+  /* accordion panels */
+  .panel {
+    padding: 20px;
+    background-color: #f5f3eb;
+    color: #4d4d4d;
+    display: none;
+  }
+  
+  /* paragraphs inside accordion */
+  .panel p {
+    margin-bottom: 20px;
+  }
+
+/* responsive*/
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .accordion {
+      font-size: 16px;
+    }
+  }
+
+ 
+  
+  
